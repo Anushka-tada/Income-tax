@@ -15,7 +15,7 @@ const Component4 = () => {
         </div>
       </div>
 
-      <div className="section4-image ">
+      <div className="section4-image flex justify-center">
       <img src="https://tax2win.in/assets-new/img/new-theme/refund-element.svg" alt="Check Refund Status" loading="lazy" className="lg:w-auto md:w-[70%] w-[90%]"/>
       </div>
     </div>

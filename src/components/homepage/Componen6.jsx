@@ -6,6 +6,7 @@ import './comp6.css'
 
 const Componen6 = () => {
   return (
+    
     <div className='section6 lg:px-24  px-4 '>
         <div className="text-center  lg:px-96 ">
       <h1  className="section5-heading lg:font-bold  md:font-bold  font-semibold text-4xl mb-2">We appreciate feedback from
