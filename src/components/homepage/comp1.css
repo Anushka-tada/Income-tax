@@ -1,0 +1,39 @@
+.section-1{
+    background-color: #f2fff7;
+    
+}
+.ITR-btn{
+    background-color: #e7fae4;
+    color: #197E37;
+}
+.india{
+    color: #197E37;
+}
+.section1-heading{
+    font-size: 50px;
+    width: 32rem;
+    line-height: 51px;
+    font-weight: 700;
+    color: #253243;
+    font-family: Poppins, sans-serif;
+}
+.box1{
+    background-color: #5585b6;
+}
+.box-2{
+    background-color:#197E37;
+}
+.eCA{
+     font-weight: 500;
+}
+.section1-boxes  h2{
+   font-weight: 700;
+   font-size: 34;
+}
+
+@media only screen and (max-width: 800px) {
+   .section1-heading{
+      width: 100%;
+      
+   }
+}
