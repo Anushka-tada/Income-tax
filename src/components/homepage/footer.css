@@ -1,0 +1,15 @@
+.footer-panels , .footer-last-parts{
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.subscribe-btn{
+    background-color: #197E37;
+}
+.email-input{
+    border:  1px solid rgb(206, 206, 206);
+}
+ .panel li{
+    color: #44586b;
+}
+.panel-h{
+    color: #253243;
+}

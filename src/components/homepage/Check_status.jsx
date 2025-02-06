@@ -2,7 +2,7 @@
 
 import "./comp4.css"
 
-const Component4 = () => {
+const Check_status = () => {
   return (
     <div className="section4 flex lg:flex-nowrap py-20  flex-wrap-reverse lg:px-24  px-4 justify-center lg:justify-normal">
       <div className="section4-text lg:me-40 me-2 md:text-center text-center lg:text-left ">
@@ -22,4 +22,4 @@ const Component4 = () => {
   )
 }
 
-export default Component4
+export default Check_status

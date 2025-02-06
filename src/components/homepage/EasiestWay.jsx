@@ -2,7 +2,7 @@
 
 import "./comp1.css"
 
-const Component1 = () => {
+const EasiestWay = () => {
   return (
 
 
@@ -25,11 +25,11 @@ const Component1 = () => {
 
 
     <div className="section1-boxes flex flex-wrap md:flex-nowrap  lg:flex-nowrap gap-4 ">
-    <div className="box1 p-4 rounded-xl ">
+    <div className="box1 p-4 py-5 pb-5 rounded-xl ">
     <img src="https://tax2win.in/assets-new/img/new-theme/self-filing-blue.svg" alt="File Income Tax Yourself" className="icon mt-10" width="66" height="66"/>
-<h2 className="text-white text-3xl" >File ITR yourself</h2>
-<p className="text-white">It&rsquo;s quick, easy, and takes only 4 minutes to file your income tax return. ITR filing plans start at just ₹49.</p>
-<div className="btn-div flex bg-white inline-flex py-2  px-12 gap-3 rounded-full mt-4">
+<h2 className="text-white text-3xl mt-2" >File ITR yourself</h2>
+<p className="text-white mt-2">It&rsquo;s quick, easy, and takes only 4 minutes to file your income tax return. ITR filing plans start at just ₹49.</p>
+<div className="btn-div flex bg-white hover:bg-sky-100 inline-flex py-3  px-12 gap-3 rounded-full mt-4">
   <p className="eCA">File ITR Now</p>
   <img src="https://tax2win.in/assets-new/img/new-theme/bdark-arrow.svg" alt="File Income Tax Yourself"></img>
 </div>
@@ -40,9 +40,9 @@ const Component1 = () => {
       <img src="https://tax2win.in/assets-new/img/new-theme/hire-eca-green.svg" alt="Get a personal eCA" className="icon" width="66" height="66"/>
       <img src="https://tax2win.in/assets-new/img/new-theme/15off-2025.svg" alt="15% OFF"/>
       </div>
-      <h2 className="text-white text-3xl">Get eCA for ITR Filing</h2>
-      <p className="text-white">Hire personal eCA to do Income Tax Filing for you. It is convenient & fast with maximum refund calculated for you.</p>
-      <div className="btn-div flex bg-white inline-flex  py-2  px-12 gap-3 rounded-full mt-4">
+      <h2 className="text-white text-3xl mt-2">Get eCA for ITR Filing</h2>
+      <p className="text-white mt-2">Hire personal eCA to do Income Tax Filing for you. It is convenient & fast with maximum refund calculated for you.</p>
+      <div className="btn-div flex bg-white hover:bg-green-100  inline-flex  py-3  px-12 gap-3 rounded-full mt-4">
   <p className=" eCA">Book eCA Now</p>
   <img src="https://tax2win.in/assets-new/img/new-theme/bdark-arrow.svg" alt="File Income Tax Yourself"></img>
 </div>
@@ -52,4 +52,4 @@ const Component1 = () => {
   )
 }
 
-export default Component1
+export default EasiestWay

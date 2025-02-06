@@ -2,7 +2,7 @@
 
 import "./comp3.css";
 
-const Component3 = () => {
+const Best_Website = () => {
   return (
     <div className="section3 flex lg:flex-nowrap flex-wrap pt-16 mt-20 items-center justify-between gap-20 px-4 lg:px-24 pb-24">
       <img
@@ -94,4 +94,4 @@ const Component3 = () => {
   );
 };
 
-export default Component3;
+export default Best_Website;
