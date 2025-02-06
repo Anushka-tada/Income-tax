@@ -36,7 +36,7 @@ const Faq_ITR = () => {
           <p className="text-xl font-bold question">Who should file an Income Tax Return?</p>
           <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e" alt="" height="24" width="24" />
         </div>
-        {visibleAnswer === 0 && 
+        {visibleAnswer === 1 && 
         <div className="answer text-left my-3"> 
           <p className="text-base mb-3">Every Individual, including an NRI, must file an Income tax return where Gross Total Income exceeds the basic exemption limit. For old tax regimes, this basic exemption limit is 2.5 lakh and for new tax regime, this basic exemption limit is 3 lakhs for the individual filing income tax return. Senior citizens (individuals aged 60 years or above but less than 80 years) and super senior citizens (individuals aged 80 years or above) are required to file an ITR if their gross total income exceeds Rs. 3 lakhs and Rs. 5 lakhs, respectively, in a financial year.</p>
           <p className="text-base mb-3"> ITR filing is important for those cases also where the income is below the exemption limit for the following conditions:-</p> 
@@ -55,7 +55,7 @@ const Faq_ITR = () => {
           <p className="text-xl font-bold question">Where can I file an Income Tax Return in India?</p>
           <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e" alt="" height="24" width="24" />
         </div>
-        {visibleAnswer === 0 &&
+        {visibleAnswer === 2 &&
         <div className="answer text-left my-3"> 
           <p className="text-base mb-2">In India, taxpayers have several options for filing their Income Tax Return (ITR). Taxpayers can file their ITR via the income tax efiling login portal <span className="text-green-700"> (https://www.incometax.gov.in/iec/foportal/)</span>where taxpayers can file their ITR electronically.</p>
           <p className="text-base">You can file ITR with Tax2win e-filing login portal in under 4 minutes. Tax2Win's user-friendly interface and expert assistance help you to file the ITR easily and quickly. The due date to file ITR for the FY 2024-25 (AY 2025-26) is 31st July 2025.</p> 
@@ -65,7 +65,7 @@ const Faq_ITR = () => {
           <p className="text-xl font-bold question">What if I miss the due date of filing the Income Tax Return?</p>
           <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e" alt="" height="24" width="24" />
         </div>
-        {visibleAnswer === 0 &&
+        {visibleAnswer === 3 &&
         <div className="answer text-left my-3"> 
           <p className="text-base mb-2">If an individual misses the due date while filing their Income Tax Return (ITR), they may still file a belated return. The belated return can be filed by 31st December of the relevant assessment year (unless extended by the government).</p>
           <p className="text-base">However, please note a belated return can only be filed with the payment of late fees u/s 234F, subject to certain conditions.</p> 
@@ -75,7 +75,7 @@ const Faq_ITR = () => {
           <p className="text-xl font-bold question">How to file an Income Tax Return online?</p>
           <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e" alt="" height="24" width="24" />
         </div>
-        {visibleAnswer === 0 &&
+        {visibleAnswer === 4 &&
         <div className="answer text-left my-3 text-base"> 
           <p className=" mb-3">Income Tax online filing is a simple process and can be done by sitting at home for with Tax2win.</p>
 
@@ -95,7 +95,7 @@ const Faq_ITR = () => {
           <p className="text-xl font-bold question">How to e-file ITR with Form 16?</p>
           <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e" alt="" height="24" width="24" />
         </div>
-        {visibleAnswer === 0 &&
+        {visibleAnswer === 5 &&
         <div className="answer text-left my-3 text-base"> 
           <p className=" mb-3">The procedure to e-file return with form-16 is as follows:</p>
 
@@ -111,7 +111,7 @@ const Faq_ITR = () => {
           <p className="text-xl font-bold question">Can I e-file ITR without Form 16?</p>
           <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e" alt="" height="24" width="24" />
         </div>
-        {visibleAnswer === 0 &&
+        {visibleAnswer === 6 &&
         <div className="answer text-left my-3 text-base"> 
           <p className=" mb-3">You can e-file your Income Tax Return even if you do not have Form 16. Salary slips also contain the details of the 
             deductions, which can be used in case Form 16 is unavailable.
@@ -122,7 +122,7 @@ const Faq_ITR = () => {
           <p className="text-xl font-bold question">What are the penalties for not filing Income Tax Return in India?</p>
           <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e" alt="" height="24" width="24" />
         </div>
-        {visibleAnswer === 0 &&
+        {visibleAnswer === 7 &&
         <div className="answer text-left my-3 text-base"> 
           <p className=" mb-3">If a taxpayer fails to file their Income Tax Return (ITR) by the due date, they may be liable to pay penalties and interest.
              The penalties for non-filing or late-filing of ITR in India are as follows:</p>
@@ -138,7 +138,7 @@ const Faq_ITR = () => {
           <p className="text-xl font-bold question">What will be the next steps after e-filing of Income Tax Return?</p>
           <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e" alt="" height="24" width="24" />
         </div>
-        {visibleAnswer === 0 &&
+        {visibleAnswer === 8 &&
         <div className="answer text-left my-3 text-base"> 
           <p className=" mb-3">Once you are done with e-filing of income tax return, you must:-</p>
           <ol className="list-disc list-inside pl-5 flex flex-col gap-2 mb-3 custom-circle">

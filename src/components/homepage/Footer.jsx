@@ -153,7 +153,7 @@ const Footer = () => {
             <p className="text-base pl-3  mb-2">Set Alert for Tax News</p>
             <div className="flex flex-wrap gap-3">
                 <input type="email" placeholder="Enter Your Email Address" className="email-input text-lg py-3 px-10  lg:px-16 rounded-full"/>
-                <div className="subscribe-btn text-white text-lg font-medium inline-flex  py-3 px-12 gap-3 rounded-full mt-4 mb-2 lg:mb-0 md:mb-0">
+                <div className="subscribe-btn text-white text-lg font-medium inline-flex  py-3 px-12 gap-3 rounded-full mt-4 mb-5  lg:mb-0 md:mb-0 lg:w-auto md:w-auto w-full flex justify-center">
                     Subscribe
                 </div>
             </div>
