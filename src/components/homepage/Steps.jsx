@@ -1,6 +1,6 @@
 // section 2 of Home Page
 
-import "./comp2.css";
+import "./steps.css";
 
 const Steps = () => {
     return (

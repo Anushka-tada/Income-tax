@@ -1,0 +1,22 @@
+.login-Form{
+    background: #fafafa;
+}
+.login-heading{
+    font-family: Inter, sans-serif;;
+}
+
+.login-Form input{
+    border: 1px solid rgb(211, 211, 211)
+}
+.forget-p{
+    color: #59ba4b;
+}
+.login-btn{
+    background-color: #59ba4b;
+}
+.sign-green{
+    color: #59ba4b;
+}
+.refunds , .return-filling{
+    color: #969696;
+}

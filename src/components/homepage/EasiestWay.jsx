@@ -1,6 +1,6 @@
 // 1st section of Home Page
 
-import "./comp1.css"
+import "./EasiestWay.css"
 
 const EasiestWay = () => {
   return (

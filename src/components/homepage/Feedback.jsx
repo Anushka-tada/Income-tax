@@ -2,9 +2,9 @@
 
 import React from 'react'
 
-import './comp6.css'
+import './Feedback.css'
 
-const Componen6 = () => {
+const Feedback = () => {
   return (
     
     <div className='section6 lg:px-24  px-4 '>
@@ -47,7 +47,7 @@ const Componen6 = () => {
   )
 }
 
-export default Componen6
+export default Feedback
 
 // "use client";
 

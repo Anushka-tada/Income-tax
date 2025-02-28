@@ -1,6 +1,6 @@
-import "./comp5.css"
+import "./Services.css"
 
-const Component5 = () => {
+const Services = () => {
   return (
     <div className="section5 lg:px-24 px-4 py-20  ">
       <div className="text-center">
@@ -121,4 +121,4 @@ const Component5 = () => {
   )
 }
 
-export default Component5
+export default Services

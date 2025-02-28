@@ -1,6 +1,6 @@
 //section 4 of Home Page
 
-import "./comp4.css"
+import "./Check_status.css"
 
 const Check_status = () => {
   return (

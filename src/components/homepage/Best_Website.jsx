@@ -1,6 +1,6 @@
 // section 3 of Home Page
 
-import "./comp3.css";
+import "./best_website.css";
 
 const Best_Website = () => {
   return (

@@ -1,0 +1,22 @@
+.Sign-Form{
+    background: #fafafa;
+}
+.sign-heading{
+    font-family: Inter, sans-serif;;
+}
+
+.Sign-Form input{
+    border: 1px solid rgb(208, 208, 208)
+}
+.forget-p{
+    color: #59ba4b;
+}
+.sign-btn{
+    background-color: #59ba4b;
+}
+.sign-green{
+    color: #59ba4b;
+}
+.refunds , .return-filling{
+    color: #969696;
+}
