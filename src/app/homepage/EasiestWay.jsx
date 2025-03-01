@@ -44,10 +44,12 @@ const EasiestWay = () => {
       </div>
       <h2 className="text-white text-3xl mt-2">Get eCA for ITR Filing</h2>
       <p className="text-white mt-2">Hire personal eCA to do Income Tax Filing for you. It is convenient & fast with maximum refund calculated for you.</p>
-      <div className="btn-div flex bg-white hover:bg-green-100  inline-flex  py-3  px-12 gap-3 rounded-full mt-4">
+     <a href="\book-eCA">
+     <div className="btn-div flex bg-white hover:bg-green-100  inline-flex  py-3  px-12 gap-3 rounded-full mt-4">
   <p className=" eCA">Book eCA Now</p>
   <img src="https://tax2win.in/assets-new/img/new-theme/bdark-arrow.svg" alt="File Income Tax Yourself"></img>
 </div>
+     </a>
       </div>
     </div>
     </div>

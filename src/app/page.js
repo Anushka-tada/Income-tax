@@ -1,6 +1,6 @@
 
 
-import Contact from "@/app/components/Contact/Contact";
+import Contact from "@/app/Contact/page";
 import FinancialDetails from "@/app/financial-details/page";
 import HomePage from "@/app/homepage/page";
 // import LoginPage from "@/app/LogIn/page"

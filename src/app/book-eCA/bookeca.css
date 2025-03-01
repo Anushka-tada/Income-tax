@@ -1,0 +1,78 @@
+li img {
+    width: 19px;
+    height: 19px;
+}
+.ca-text{
+    width: 39%;
+   
+}
+.cs-consulltants{
+    background-color: #fafbfd;;
+}
+.ca-text{
+    color: #0c2343;
+   
+}
+.ca-form{
+    width: 436px;
+    border-bottom: 3px solid #197e37;
+}
+
+.book-btn{
+    background-color: #197e37;
+
+}
+input{
+    width: 100%;
+    border: 1px solid rgb(188, 188, 188);
+}
+.google-btn{
+    border: 1px solid #1678fb;
+}
+.google-btn p{
+   color: #1678fb;
+}
+.blue-text{
+    color: #003364;
+}
+.ca-form {
+    position: relative;
+  }
+  
+  .ca-form .banner {
+    position: absolute;
+    top: -11px;
+    left: -11px;
+
+  }
+
+
+  @media (max-width: 490px){
+    .ca-form{
+        width: 90%;
+    }
+    .ca-text{
+        width: 90%;
+       
+    }
+  }
+
+  @media (max-width: 800px){
+    
+    .ca-text{
+        width: 100%;
+       
+    }
+  }
+
+  .tax-return-filling{
+    background: #F2FFF7;
+  }
+
+  .step1{
+    width: 420px;
+    border: 1px solid rgb(213, 213, 213);
+  }
+ 
+
+  

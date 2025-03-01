@@ -29,7 +29,7 @@ const Financial = () => {
                     </div>
                 </div>
 
-                <div className="financial-btns flex flex-wrap justify-between mb-10">
+                <div className="financial-btns flex flex-wrap justify-center lg:justify-between md:justify-between xl:justify-between sm:justify-between mb-10">
                    <a href="\Tax-Retun">
                    <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
                         <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15}/>
@@ -37,7 +37,7 @@ const Financial = () => {
                     </div>
                    </a>
 
-                    <div className="other-btns flex flex-wrap gap-4">
+                    <div className="other-btns flex flex-wrap justify-center gap-4">
                         <div className="get-button px-10 py-3 rounded-md">
                             <p className="text-white font-semibold">GET CA ASSISTED</p>
                         </div>

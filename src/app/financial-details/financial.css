@@ -64,11 +64,14 @@
 }
 @media (max-width:462px){
     .get-button{
+        width: 80%;
+        height: 50px;
+    }
+    .continue-btn {
         width: 100%;
         height: 50px;
     }
-    .continue-btn{
+    .other-btns {
         width: 100%;
-        height: 50px;
     }
 }

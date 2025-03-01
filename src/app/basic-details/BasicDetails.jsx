@@ -145,3 +145,4 @@ const BasicDetails = () => {
 }
 
 export default BasicDetails;
+

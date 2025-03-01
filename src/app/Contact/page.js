@@ -1,6 +1,6 @@
 
 
-import LogFooter from '../../LogIn/LogFooter';
+import LogFooter from '../LogIn/LogFooter';
 import Contact_footer from './Contact_footer';
 import Contactform from './Contactform';
 import Nav from './Nav';
@@ -8,7 +8,7 @@ import Solutions from './Solutions';
 
 // import styles from './HomePage.module.css';
 
-const Contact = () => {
+const page = () => {
   return (
     <div>
         <Nav/>
@@ -20,4 +20,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default page;
