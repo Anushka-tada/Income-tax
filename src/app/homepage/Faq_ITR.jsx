@@ -80,7 +80,7 @@ const Faq_ITR = () => {
           <p className=" mb-3">Income Tax online filing is a simple process and can be done by sitting at home for with Tax2win.</p>
 
           <ul className="flex flex-col gap-2 mb-3 custom-circle pl-5">
-                <li><b className="me-2">Step 1:</b> Visit the <a href="https://tax2win.in/" target="_blank" class="link-p">Tax2Win</a> website. Here, click on the option “<a href="https://tax2win.in/efile-income-tax-return" target="_blank" className="link-p">File ITR Now</a>.”</li>
+                <li><b className="me-2">Step 1:</b> Visit the <a href="https://tax2win.in/" target="_blank" className="link-p">Tax2Win</a> website. Here, click on the option “<a href="https://tax2win.in/efile-income-tax-return" target="_blank" className="link-p">File ITR Now</a>.”</li>
                 <li><b className="me-2">Step 2:</b> Select your source of Income and click on continue.</li>
                 <li><b className="me-2">Step 3:</b> If you're a salaried individual, just upload your Form 16. If you do not have form 16, you can skip the option and move further.</li>
                 <li><b className="me-2">Step 4:</b> Enter the Financial Year, PAN &amp; Aadhaar number, and other basic details like your Employment Details, Deductions(If Any), and bank details.</li>

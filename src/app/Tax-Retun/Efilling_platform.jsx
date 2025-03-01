@@ -163,7 +163,7 @@ const Efilling_platform = () => {
           </div>
 
           <div className="looking-btn flex  bg-white lg:px-5 md:px-5 px-2 lg:w-72 gap-2 justify-center py-3 rounded-full">
-            <p className='font-semibold text-lg'>Connect with Experts</p>
+            <p className='font-semibold text-lg text-black'>Connect with Experts</p>
             <img src="https://tax2win.in/assets-new/img/diy-landing/bdark-arrow.svg"></img>
           </div>
 

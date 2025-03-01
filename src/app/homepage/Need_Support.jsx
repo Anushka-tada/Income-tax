@@ -15,7 +15,7 @@ const Need_Support = () => {
             </div>
 </div>
 
-<div class="social-icons flex justify-center gap-6">
+<div className="social-icons flex justify-center gap-6">
             <a href="https://www.facebook.com/tax2win" >
             <img src="https://tax2win.in/assets-new/img/new-theme/fb.svg" alt=""/>
            </a>
