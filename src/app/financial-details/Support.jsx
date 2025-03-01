@@ -2,6 +2,7 @@ import "./financial.css"
 
 const Support = () => {
   return (
+    <>
     <div className="needSupport flex flex-wrap-reverse items-center justify-center  py-11 lg:px-24 px-4 ">
          <div className="supports flex flex-wrap justify-center gap-6">
             
@@ -17,6 +18,13 @@ const Support = () => {
 
 
     </div>
+
+    <div className="copyright py-4 flex justify-between px-14">
+      <p>© 2025 TAX2WIN. All Rights Reserved.</p>
+      <p>Terms & Conditions | Privacy Policy
+      </p>
+    </div>
+    </>
   )
 }
 

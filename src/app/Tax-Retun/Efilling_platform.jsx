@@ -15,11 +15,11 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q1. Income from <span className='font-bold'>Salary/Pension</span>?</p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="salaryPension" className='h-5 w-5' />
+                <input type="radio" name="salaryPension" className='h-5 w-5 custom-radio' />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="salaryPension" className='h-5 w-5' />
+                <input type="radio" name="salaryPension" className='h-5 w-5  custom-radio' defaultChecked />
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -32,11 +32,11 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q2. Income from <span className='font-bold'>House Property (Home Loan/ Rental Income, etc)?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="houseProperty" className='h-5 w-5' />
+                <input type="radio" name="houseProperty" className='h-5 w-5 custom-radio' defaultChecked />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="houseProperty" className='h-5 w-5' />
+                <input type="radio" name="houseProperty" className='h-5 w-5 custom-radio ' />
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -49,11 +49,11 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q3. Income from <span className='font-bold'>Business/Profession?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="businessProfession" className='h-5 w-5' />
+                <input type="radio" name="businessProfession" className='h-5 w-5 custom-radio' />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="businessProfession" className='h-5 w-5' />
+                <input type="radio" name="businessProfession" className='h-5 w-5 custom-radio' defaultChecked />
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -66,11 +66,11 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q4. Income from <span className='font-bold'>Capital Gains (Shares/ Mutual Funds/Property etc)?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="capitalGains" className='h-5 w-5' />
+                <input type="radio" name="capitalGains" className='h-5 w-5 custom-radio' />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="capitalGains" className='h-5 w-5' />
+                <input type="radio" name="capitalGains" className='h-5 w-5 custom-radio'defaultChecked />
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -83,11 +83,11 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q5. Income from <span className='font-bold'>Other Sources?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="otherSources" className='h-5 w-5' />
+                <input type="radio" name="otherSources" className='h-5 w-5 custom-radio' />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="otherSources" className='h-5 w-5' />
+                <input type="radio" name="otherSources" className='h-5 w-5 custom-radio' defaultChecked />
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -100,11 +100,11 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q6. Income from <span className='font-bold'>Foreign Source?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="foreignSource" className='h-5 w-5' />
+                <input type="radio" name="foreignSource" className='h-5 w-5 custom-radio' />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="foreignSource" className='h-5 w-5' />
+                <input type="radio" name="foreignSource" className='h-5 w-5 custom-radio' defaultChecked/>
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>

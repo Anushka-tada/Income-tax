@@ -16,6 +16,38 @@
     background: #5585B6;
 }
 
+/* Style for custom radio button */
+.custom-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #38a169 !important; /* green-700 color */
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .custom-radio:checked {
+    background-color: #ffffff !important; /* green-700 color */
+    border: 2px solid #38a169 !important; /* green-700 color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-radio:checked::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #38a169;
+    border-radius: 50%;
+    margin: auto;
+  }
+  
+
 /* Made a mistake in your FIled ITR section  */
 
 .revised-return{

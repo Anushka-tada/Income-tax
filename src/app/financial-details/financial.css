@@ -1,9 +1,9 @@
 
 
-/* .financial-details{
-    background: url("https://tax2win.in/assets-new/img/new-theme/diy-flow/soi-bg-new.png") left top no-repeat;;
-} */
-.financial-form input{
+.financial-details{
+    background-color: #d3dbe4;
+}
+.financial-form input , .financial-form .year{
  border:  1px solid rgb(163, 163, 163);
 }
 
@@ -34,4 +34,41 @@
 
 .needSupport{
     background-color: #197e37;
+}
+
+@media (max-width:940px){
+    .financial-btns{
+        width: 90%;
+    }
+    .financial-form{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:768px){
+    .input-1{
+        width: 100%;
+    }
+    .input-2{
+        width: 100%;
+    }
+}
+.get-button{
+   
+    height: 50px;
+}
+.continue-btn{
+  
+    height: 50px;
+}
+@media (max-width:462px){
+    .get-button{
+        width: 100%;
+        height: 50px;
+    }
+    .continue-btn{
+        width: 100%;
+        height: 50px;
+    }
 }
