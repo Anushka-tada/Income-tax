@@ -114,10 +114,13 @@ const Efilling_platform = () => {
           </div>
         </div>
 
-        <div className="continue-btn flex flex-wrap gap-3 py-3 px-20 rounded mt-7">
+<a href="\financial-details">
+<div className="continue-btn flex flex-wrap gap-3 py-3 px-20 rounded mt-7">
           <p className='text-white'>CONTINUE</p>
           <img src="https://tax2win.in/assets-new/img/diy-landing/nex-arrow.svg" alt="Continue" width="21" height="21"></img>
         </div>
+</a>
+        
 
         <div className="efilling-rates flex justify-center flex-wrap gap-7 py-14">
           <div className="efilling-rate flex gap-2">

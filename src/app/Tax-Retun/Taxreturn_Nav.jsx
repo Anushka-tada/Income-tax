@@ -44,7 +44,7 @@ const Taxreturn_Nav = () => {
   return (
     <div className="Navbar-oute bg-white flex items-center justify-between lg:px-32 px-4 py-3 ">
       <div className="nav-logo">
-        <a href="https://tax2win.in/">
+        <a href="\homepage">
           <img
             src="https://tax2win.in/assets-new/img/new-theme/logo.svg"
             title="Income Tax Filing Online"
@@ -67,7 +67,9 @@ const Taxreturn_Nav = () => {
         <Link href="\LogIn"
                className="font-medium" > Log In
                    </Link>
-        <div className="font-medium">Sign Up</div>
+                   <Link href="\Signup"
+               className="font-medium" > Sign Up
+                   </Link>
       </div>
     </div>
   );

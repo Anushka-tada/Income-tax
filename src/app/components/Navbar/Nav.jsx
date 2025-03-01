@@ -225,7 +225,7 @@ const Nav = () => {
         <Link href="\LogIn"
                 > Log In
                    </Link>
-        <div>Sign Up</div>
+        <Link href="\Signup">Sign Up</Link>
       </div>
     </div>
   );
