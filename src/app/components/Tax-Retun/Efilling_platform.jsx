@@ -417,16 +417,16 @@ const Efilling_platform = () => {
           <p className="que text-2xl font-bold mb-2">What are the documents required to file ITR?</p>
           <p className="ans mb-3">Following are the documents required for filing ITR:</p>
           <ul>
-            <li> ●   <a href="" class="link-p">Form 16</a></li>
-            <li>● <a href="" class="link-p">Aadhar</a> and <a href="" target="_blank" class="link-p">PAN Card</a></li>
+            <li> ●   <a href="" className="link-p">Form 16</a></li>
+            <li>● <a href="" className="link-p">Aadhar</a> and <a href="" target="_blank" className="link-p">PAN Card</a></li>
             <li> ● Salary Slips</li>
             <li>●   Bank interest certificates</li>
             <li>● TDS certificate issued by banks and others</li>
             <li> ● Annual Information Statement</li>
             <li> ●  Proofs of tax-saving investment</li>
-            <li>●  <a href="" class="link-p">Capital gains statement</a></li>
+            <li>●  <a href="" className="link-p">Capital gains statement</a></li>
             <li>● Details of foreign assets and investments</li>
-            <li>● <a href="" class="link-p">Form 26AS</a></li>
+            <li>● <a href="" className="link-p">Form 26AS</a></li>
           </ul>
         </div>
         <div className="faq pb-7 mt-6">
@@ -449,13 +449,13 @@ const Efilling_platform = () => {
           <p className="que text-2xl font-bold mb-2">Which income tax return should I select for e-filing?</p>
           <p className="ans mb-3">There are 7 ITR forms in India; each served to different taxpayer profiles:</p>
           <ul>
-            <li>● <b><a class="link-p" href="">ITR 1 (Sahaj):</a></b> For residents with an income up to Rs 50 lakh from salary, a single house property, or other sources (excluding lottery and racehorses). NRIs cannot use this form.</li>
-            <li>● <b><a class="link-p" href="">ITR 2:</a></b> For individuals and HUFs with income above Rs 50 lakh and income from agriculture exceeding Rs 5,000. Suitable for those earning from salary, home, capital gains, or other means. Can also be used by NRIs.</li>
-            <li>● <b><a class="link-p" href="">ITR 3:</a></b> For individuals and HUFs earning from a profession or sole proprietorship, including income from business, employment, real estate, capital gains, trades, and dealing in futures and options.</li>
-            <li>● <b><a class="link-p" href="">ITR 4: (Sugam):</a></b> For individuals with income from a business with turnover up to Rs 2 crore or a profession with income up to Rs 50 lakh. Suitable for freelancers in notified professions.</li>
-            <li>● <b><a class="link-p" href="">ITR 5:</a></b> For entities like Investment Funds, Business Trusts, Cooperative societies, LLPs, AOPs, BOIs, etc. to declare profits and other sources of income.</li>
-            <li>● <b><a class="link-p" href="">ITR 6:</a></b> For companies, except those seeking Section 11 exemption. Requires disclosure of housing property rental revenue, business income, and multiple sources of income.</li>
-            <li>● <b><a class="link-p" href="">ITR 7:</a></b> For individuals or entities required to furnish returns under Sections 139(4A) to 139(4F), which include trusts, political parties, scientific research associations, medical institutions, universities, business trusts, and investment funds.</li>
+            <li>● <b><a className="link-p" href="">ITR 1 (Sahaj):</a></b> For residents with an income up to Rs 50 lakh from salary, a single house property, or other sources (excluding lottery and racehorses). NRIs cannot use this form.</li>
+            <li>● <b><a className="link-p" href="">ITR 2:</a></b> For individuals and HUFs with income above Rs 50 lakh and income from agriculture exceeding Rs 5,000. Suitable for those earning from salary, home, capital gains, or other means. Can also be used by NRIs.</li>
+            <li>● <b><a className="link-p" href="">ITR 3:</a></b> For individuals and HUFs earning from a profession or sole proprietorship, including income from business, employment, real estate, capital gains, trades, and dealing in futures and options.</li>
+            <li>● <b><a className="link-p" href="">ITR 4: (Sugam):</a></b> For individuals with income from a business with turnover up to Rs 2 crore or a profession with income up to Rs 50 lakh. Suitable for freelancers in notified professions.</li>
+            <li>● <b><a className="link-p" href="">ITR 5:</a></b> For entities like Investment Funds, Business Trusts, Cooperative societies, LLPs, AOPs, BOIs, etc. to declare profits and other sources of income.</li>
+            <li>● <b><a className="link-p" href="">ITR 6:</a></b> For companies, except those seeking Section 11 exemption. Requires disclosure of housing property rental revenue, business income, and multiple sources of income.</li>
+            <li>● <b><a className="link-p" href="">ITR 7:</a></b> For individuals or entities required to furnish returns under Sections 139(4A) to 139(4F), which include trusts, political parties, scientific research associations, medical institutions, universities, business trusts, and investment funds.</li>
           </ul>
         </div>
 
@@ -495,13 +495,13 @@ const Efilling_platform = () => {
             taxpayer exceeds the basic exemption limit. Under the old tax regime, individuals under 60 years old needed to file
             an Income Tax Return (ITR) if their income exceeded Rs. 2.5 lakhs,
             while individuals over 60 years old needed to file if their income exceeded Rs. 3 lakhs..</p>
-          <p>In the new tax regime, the income threshold for individuals under 60 years old has been raised to Rs. 4 lakhs (post budget 2025). <a href="" class="link-p">Other Scenarios Where it is Mandatory to File ITR</a>.</p>
+          <p>In the new tax regime, the income threshold for individuals under 60 years old has been raised to Rs. 4 lakhs (post budget 2025). <a href="" className="link-p">Other Scenarios Where it is Mandatory to File ITR</a>.</p>
 
         </div>
 
         <div className="faq pb-7 mt-6">
           <p className="que text-2xl font-bold mb-2">Can I do ITR filing without Form 16?</p>
-          <p>Yes, you can <a target="_blank" class="link-p" href="">file your ITR without Form 16</a>. Salaried employees can file their ITR even
+          <p>Yes, you can <a target="_blank" className="link-p" href="">file your ITR without Form 16</a>. Salaried employees can file their ITR even
             if they have not received Form 16 from their employer. In such cases, the TDS details can be found using Form 26AS, and income details
             can be found using AIS/TIS. Alternatively, you can ask your employer to issue Form-16, as it serves as a statement of TDS deducted.</p>
         </div>
@@ -637,7 +637,7 @@ const Efilling_platform = () => {
 
         <div className="faq pb-7 mt-6">
           <p className="que text-2xl font-bold mb-2">How can I check my income tax refund status?</p>
-          <p>You can check the refund status of your ITR via Tax2win's "<a href="" class="link-p">Check Income Tax Refund Status</a>."</p>
+          <p>You can check the refund status of your ITR via Tax2win's "<a href="" className="link-p">Check Income Tax Refund Status</a>."</p>
         </div>
 
 

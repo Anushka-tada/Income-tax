@@ -1,7 +1,7 @@
 
 
-import LogFooter from '../LogIn/LogFooter';
-import Nav from '../LogIn/Nav';
+import LogFooter from '../../LogIn/LogFooter';
+import Nav from '../../LogIn/Nav';
 import Sign_Form from './Sign_Form';
 
 

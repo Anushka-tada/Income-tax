@@ -1,19 +1,19 @@
 
 
-import Contact from "@/components/Contact/Contact";
-import FinancialDetails from "@/components/financial-details/FinancialDetails";
-import HomePage from "@/components/homepage/HomePage";
-import LoginPage from "@/components/LogIn/LoginPage"
-import Signup from "@/components/Signup/Signup"
-import TaxReturn from "@/components/Tax-Retun/TaxReturn";
+import Contact from "@/app/components/Contact/Contact";
+import FinancialDetails from "@/app/financial-details/page";
+import HomePage from "@/app/homepage/page";
+import LoginPage from "@/app/LogIn/page"
+import Signup from "@/app/components/Signup/Signup"
+import TaxReturn from "@/app/components/Tax-Retun/TaxReturn";
 
 const HomePageWrapper = () => {
   return(<>
-  {/* <HomePage/> */}
+  <HomePage/>
   {/* <LoginPage/> */}
   {/* <Contact/> */}
   {/* <Signup/> */}
-  <TaxReturn/>
+  {/* <TaxReturn/> */}
   {/* <FinancialDetails/> */}
   </>)
   

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 import "./navbar.css";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -42,7 +43,7 @@ const Nav = () => {
   return (
     <div className="Navbar-outer flex items-center justify-between lg:px-24 px-4 py-4 ">
       <div className="nav-logo">
-        <a href="https://tax2win.in/">
+        <a href="\homepage">
           <img
             src="https://tax2win.in/assets-new/img/new-theme/logo.svg"
             title="Income Tax Filing Online"
@@ -221,7 +222,9 @@ const Nav = () => {
 
         <div>Pricing</div>
         <div>Contact</div>
-        <div>Log In</div>
+        <Link href="\LogIn"
+                > Log In
+                   </Link>
         <div>Sign Up</div>
       </div>
     </div>

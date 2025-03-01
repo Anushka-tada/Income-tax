@@ -7,7 +7,7 @@ import Nav from './Nav';
 
 // import styles from './HomePage.module.css';
 
-const HomePage = () => {
+const page = () => {
   return (
     <div>
         <Nav/>
@@ -18,4 +18,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default page;

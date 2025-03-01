@@ -1,4 +1,4 @@
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../components/Navbar/Navbar';
 import Componen6 from './Feedback';
 import EasiestWay from './EasiestWay';
 import Steps from './Steps';
@@ -15,7 +15,7 @@ import Feedback from './Feedback';
 
 // import styles from './HomePage.module.css';
 
-const HomePage = () => {
+const page = () => {
   return (
     <div>
         <Navbar/>
@@ -35,4 +35,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default page;
