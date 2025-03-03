@@ -221,6 +221,20 @@ const HouseProperty = () => {
                         </div>
                     </div>
 
+
+                     {/* content for Deemed let out option */}
+
+                    {LetOutContent === 'deemed' && (
+                         <>
+                              <div className="deemed-content flex justify-start mt-6 gap-5 pb-5 ">
+                                     <div className="yes-input flex flex-col">
+                                         <label htmlFor="interest-on-loan" className="text-xl font-semibold">Estimated rent receivable *</label>
+                                         <input id="interest-on-loan" type="text" className="p-3 rounded-lg mt-3" />
+                                     </div>
+                                 </div>
+                       </>
+                    )}
+
                     {/* content for let out option */}
 
                     {LetOutContent === 'let' && (
@@ -303,6 +317,33 @@ const HouseProperty = () => {
                         </>
                     )}
                 </div>
+
+
+                <div className="add-property flex xl:justify-end lg:justify-end md:justify-end sm:justify-end justify-center mb-5">
+                     <div className="add-btn rounded-full shadow px-8 py-2">
+                        <p className="text-white">+ Add House Property</p>
+                     </div>
+                 </div>
+
+                 <div className="financial-btns flex flex-wrap justify-between mb-10">
+                     <a href="\financial-details">
+                         <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
+                             <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
+                             <p className="text-green-700">Back</p>
+                         </div>
+                     </a>
+                     <div className="other-btns flex flex-wrap gap-4">
+                         <div className="get-button px-10 py-3 rounded-md">
+                             <p className="text-white font-semibold">GET CA ASSISTED</p>
+                         </div>
+                         <a href="\house-property">
+                             <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md">
+                                 <p className="text-white font-semibold">CONTINUE</p>
+                                 <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />
+                             </div>
+                         </a>
+                     </div>
+                 </div>
                 
             </div>
         </>
