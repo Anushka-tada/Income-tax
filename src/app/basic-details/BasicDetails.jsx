@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import "./basic-details.css";
 
 const BasicDetails = () => {
@@ -15,6 +16,7 @@ const BasicDetails = () => {
     whatsappUpdates: false
   });
   const [errors, setErrors] = useState({});
+  const router = useRouter();
 
   const validate = () => {
     const newErrors = {};
@@ -50,6 +52,7 @@ const BasicDetails = () => {
     if (validate()) {
       console.log('Form Submitted Successfully', formData);
       // Handle form submission
+      router.push('\Basic-details2');
     }
   };
 
@@ -132,7 +135,7 @@ const BasicDetails = () => {
             <div className="get-button px-10 py-3 rounded-md">
               <p className="text-white font-semibold">GET CA ASSISTED</p>
             </div>
-            <a href="">
+            <a href="\Basic-details2">
               <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md" onClick={handleSubmit}>
                 <p className="text-white font-semibold">CONTINUE</p>
                 <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />

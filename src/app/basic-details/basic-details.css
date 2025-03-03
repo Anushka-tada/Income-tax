@@ -95,7 +95,7 @@
     background-color: #f0f2f5;
   }
 
-  .financial-btns{
+ .basic-details .financial-btns{
     width: 79%;
 }
 
@@ -110,10 +110,10 @@
     border: 1px solid #197E37;
 }
 @media (max-width:940px){
-    .financial-btns{
+    .basic-details  .financial-btns{
         width: 90%;
     }
-    .financial-form{
+    .basic-details  .financial-form{
         width: 90%;
     }
     .basic-details-form{
@@ -129,15 +129,15 @@
     height: 50px;
 }
 @media (max-width:462px){
-    .get-button{
+    .basic-details  .get-button{
         width: 80%;
         height: 50px;
     }
-    .continue-btn {
+    .basic-details   .continue-btn {
         width: 100%;
         height: 50px;
     }
-    .other-btns {
+    .basic-details  .other-btns {
         width: 100%;
     }
 }
