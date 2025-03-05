@@ -326,7 +326,7 @@ const HouseProperty = () => {
                  </div>
 
                  <div className="financial-btns flex flex-wrap justify-between mb-10">
-                     <a href="\financial-details">
+                     <a href="\Basic-details2">
                          <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
                              <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
                              <p className="text-green-700">Back</p>
@@ -336,7 +336,7 @@ const HouseProperty = () => {
                          <div className="get-button px-10 py-3 rounded-md">
                              <p className="text-white font-semibold">GET CA ASSISTED</p>
                          </div>
-                         <a href="\house-property">
+                         <a href="\Deduction">
                              <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md">
                                  <p className="text-white font-semibold">CONTINUE</p>
                                  <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />

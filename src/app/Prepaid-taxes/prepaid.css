@@ -1,0 +1,35 @@
+.prepaid-taxes{
+    background-color: #d3dbe4;
+}
+
+.prepaid-tax-form , .financial-btns {
+    width: 80%;
+  }
+
+  .notes{
+    background-color: #e8f9e6;
+} 
+
+.input-yes{
+    border-top: 2px solid rgb(185, 185, 185);
+}
+
+.inside-input input{
+    width: 258px;
+    border: 1px solid rgb(185, 185, 185);
+}
+@media (max-width:420px){
+      
+    .inside-input input{
+        width: 270px;
+        border: 1px solid rgb(185, 185, 185);
+    }
+}
+
+@media (max-width:337px){
+      
+    .inside-input input{
+        width: 210px;
+        border: 1px solid rgb(185, 185, 185);
+    }
+}
