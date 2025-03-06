@@ -14,7 +14,7 @@ const Mainsteps = () => {
           <a href="\Deduction" className='px-3 py-1 bg-white rounded-full'><li className='text-sm'>Deduction</li></a>
           <a href="\bank-details" className='px-3 py-1 bg-white rounded-full'><li className='text-sm'>Bank Details</li></a>
           <a href="\Prepaid-taxes" className='px-3 py-1 bg-white rounded-full'><li className='text-sm'>Prepaid Taxes</li></a>
-          <a href="" className='px-3 py-1 bg-white rounded-full'><li className='text-sm'>Extra Details</li></a>
+          <a href="\extra-details" className='px-3 py-1 bg-white rounded-full'><li className='text-sm'>Extra Details</li></a>
           <a href="" className='px-3 py-1 bg-white rounded-full'><li className='text-sm'>Computation Details</li></a>
         </ul>
       </div>

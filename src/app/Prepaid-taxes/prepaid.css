@@ -5,6 +5,13 @@
 .prepaid-tax-form , .financial-btns {
     width: 80%;
   }
+ 
+  @media (max-width:670px){
+      
+    .prepaid-tax-form ,  .financial-btns  {
+        width: 96%;
+      }
+} 
 
   .notes{
     background-color: #e8f9e6;
@@ -33,3 +40,23 @@
         border: 1px solid rgb(185, 185, 185);
     }
 }
+
+.get-button{
+    background-color: #09345a;
+    
+}
+.continue-btn{
+    background-color: #197E37;
+}
+
+.back-btn{
+    border: 1px solid #197E37;
+}
+.get-button{
+    width: 220px;
+     height: 50px;
+ }
+ .continue-btn{
+     width: 220px;
+     height: 50px;
+ }

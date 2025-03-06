@@ -54,8 +54,8 @@ const Prepaid = () => {
           <div className="prepaid-inputs">
             {sections.map((section, index) => (
               <div key={section.id} className="prepaid-input py-7 shadow-md rounded-lg px-4 mb-7">
-                <div className="input-no flex justify-between items-center mb-3">
-                  <div className="input-text flex flex-col items-start gap-2 mb-7">
+                <div className="input-no flex flex-wrap justify-between items-center mb-3">
+                  <div className="input-text flex flex-col items-start gap-2 mb-7 text-left xl:me-32 lg:me-30 md:me-10 me-0">
                     <h3 className='text-xl font-semibold'>{section.title}</h3>
                     <p>{section.description}</p>
                   </div>
@@ -208,6 +208,26 @@ const Prepaid = () => {
             ))}
           </div>
         </div>
+
+        <div className="financial-btns flex flex-wrap justify-between mb-10">
+        <a href="\bank-details">
+          <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
+            <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
+            <p className="text-green-700">Back</p>
+          </div>
+        </a>
+        <div className="other-btns flex flex-wrap gap-4">
+          <div className="get-button px-10 py-3 rounded-md">
+            <p className="text-white font-semibold">GET CA ASSISTED</p>
+          </div>
+          <a href="\Prepaid-taxes">
+            <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md">
+              <p className="text-white font-semibold">CONTINUE</p>
+              <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />
+            </div>
+          </a>
+        </div>
+      </div>
       </div>
     </>
   );
