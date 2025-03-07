@@ -5,6 +5,7 @@ import Prepaid from './Prepaid'
 import Support from '../financial-details/Support'
 import Mainsteps from '../basic-details2/Mainsteps'
 
+
 const page = () => {
   return (
     <>
