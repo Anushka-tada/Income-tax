@@ -1,3 +1,5 @@
+@import url('../homepage/EasiestWay.css');
+
 li img {
     width: 19px;
     height: 19px;
@@ -15,11 +17,11 @@ li img {
 }
 .ca-form{
     width: 436px;
-    border-bottom: 3px solid #197e37;
+    border-bottom: 3px solid var(--primary-color);
 }
 
 .book-btn{
-    background-color: #197e37;
+    background-color: var(--primary-color);
 
 }
 input{
@@ -34,6 +36,7 @@ input{
 }
 .blue-text{
     color: #003364;
+
 }
 .ca-form {
     position: relative;
@@ -66,7 +69,7 @@ input{
   }
 
   .tax-return-filling{
-    background: #F2FFF7;
+    background: var(--secondary-color);
   }
 
   .step1{
@@ -104,8 +107,8 @@ padding: 15px;
    }
 
   .work-btn{
-    background: #e7fae4;
-    color: #197E37;
+    background: var(--secondary-color);
+     color: var(--third-color);
     font-weight: 500;
     font-size: 14px;
   }
@@ -151,4 +154,8 @@ padding: 15px;
 
  .services-details {
     width: 800px;
+ }
+
+ .bg-blue{
+  background-color: var(--primary-color);
  }

@@ -2,7 +2,7 @@
     color: #333;
 }
 .login-faq {
-    border-bottom: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid rgb(160, 160, 160);
 }
 ul.custom-circle li::before {
     content: '•'; /* Unicode character for filled circle */

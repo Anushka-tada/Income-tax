@@ -81,7 +81,7 @@ const BankDetails = () => {
 
         <div className="add-bank flex justify-end my-7">
           <button
-            className="add-btn rounded-full shadow px-8 py-2 bg-green-500 text-white"
+            className="add-btn rounded-full shadow px-8 py-2 bg-blue text-white"
             onClick={() => addBankForm(bankForms[0].id)}
           >
             + Add Bank
@@ -101,14 +101,14 @@ const BankDetails = () => {
         <a href="\Deduction">
           <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
             <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
-            <p className="text-green-700">Back</p>
+            <p className="text-blue">Back</p>
           </div>
         </a>
         <div className="other-btns flex flex-wrap gap-4">
           <div className="get-button px-10 py-3 rounded-md">
             <p className="text-white font-semibold">GET CA ASSISTED</p>
           </div>
-          <a href="\Prepaid-taxes">
+          <a href="\prepaid-taxes">
             <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md">
               <p className="text-white font-semibold">CONTINUE</p>
               <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />

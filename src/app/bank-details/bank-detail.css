@@ -1,3 +1,5 @@
+
+@import url('../homepage/EasiestWay.css');
 .bank-details{
     background-color: #d3dbe4;
 }
@@ -53,11 +55,14 @@
       
   }
   .continue-btn{
-      background-color: #197E37;
+      background-color: var(--primary-color);
   }
   
   .back-btn{
-      border: 1px solid #197E37;
+      border: 1px solid var(--primary-color);
+  }
+  .text-blue{
+    color: var(--third-color);
   }
   .get-button{
       width: 220px;
@@ -90,4 +95,7 @@
 
 .remove-bank{
     width: 100%;
+}
+.bg-blue{
+    background-color: var(--primary-color);
 }

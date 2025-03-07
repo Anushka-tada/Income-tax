@@ -29,8 +29,8 @@ const Services = () => {
         <h2 className="text-2xl font-bold mb-5">Income Tax Notice Assistance</h2>
         <p className="mb-4">A dedicated tax expert helps you navigate and respond to notices under sections 139(9), 143(1), high-value transactions, and other notices from the Income Tax Department.</p>
         <div className="flex gap-2">
-      <p className="text-green-700 font-bold ">  Connect With Tax Experts</p>
-       <img src="https://tax2win.in/assets-new/img/new-theme/g_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
+      <p className="text-blue font-bold ">  Connect With Tax Experts</p>
+       <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
         </div>
         </div>
 
@@ -44,8 +44,8 @@ const Services = () => {
           also provides an opportunity for those who haven't filed previously.</p>
         </div>
         <div className="flex gap-2">
-      <p className="text-green-700 font-bold "> File Now</p>
-       <img src="https://tax2win.in/assets-new/img/new-theme/g_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
+      <p className="text-blue font-bold "> File Now</p>
+       <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
         </div>
         </div>
 
@@ -57,8 +57,8 @@ const Services = () => {
            and safe when you file ITR with Tax2win on your own.</p>
       </div>
         <div className="flex gap-2">
-      <p className="text-green-700 font-bold ">Start Filing</p>
-       <img src="https://tax2win.in/assets-new/img/new-theme/g_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
+      <p className="text-blue font-bold ">Start Filing</p>
+       <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
         </div>
         </div>
 
@@ -70,8 +70,8 @@ const Services = () => {
         for you.</p>
     </div>
         <div className="flex gap-2">
-      <p className="text-green-700 font-bold ">Book eCA Today</p>
-       <img src="https://tax2win.in/assets-new/img/new-theme/g_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
+      <p className="text-blue font-bold ">Book eCA Today</p>
+       <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
         </div>
         </div>
 
@@ -83,8 +83,8 @@ const Services = () => {
            Our online CA ensures compliance with the Income tax laws and help you claim eligible tax deductions.</p>
         </div>
         <div className="flex gap-2">
-      <p className="text-green-700 font-bold "> Connect Now</p>
-       <img src="https://tax2win.in/assets-new/img/new-theme/g_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
+      <p className="text-blue font-bold "> Connect Now</p>
+       <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
         </div>
         </div>
 
@@ -96,8 +96,8 @@ const Services = () => {
            Form 16 and get the ITR prepared automatically.</p>
        </div>
         <div className="flex gap-2 ">
-      <p className="text-green-700 font-bold ">Upload Now</p>
-       <img src="https://tax2win.in/assets-new/img/new-theme/g_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
+      <p className="text-blue font-bold ">Upload Now</p>
+       <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
         </div>
         </div>
 
@@ -109,8 +109,8 @@ const Services = () => {
           equity shares, mutual fund units, or bonds in addition to salary/business income.</p>
        </div>
         <div className="flex gap-2">
-      <p className="text-green-700 font-bold ">  Connect Today</p>
-       <img src="https://tax2win.in/assets-new/img/new-theme/g_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
+      <p className="text-blue font-bold ">  Connect Today</p>
+       <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="Income Tax Notice Assistance" title="Income Tax Notice Assistance" loading="lazy" width="20" height="20" className="icon"></img>
         </div>
         </div>
 

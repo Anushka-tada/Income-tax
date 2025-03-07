@@ -73,7 +73,7 @@ const Deduction = () => {
                     <a href="\house-property">
                         <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
                             <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
-                            <p className="text-green-700">Back</p>
+                            <p className="text-blue">Back</p>
                         </div>
                     </a>
 

@@ -43,13 +43,7 @@ const Nav = () => {
     <div className="Navbar-oute bg-white flex items-center justify-between lg:px-32 px-4 py-4 ">
       <div className="nav-logo">
         <a href="https://tax2win.in/">
-          <img
-            src="https://tax2win.in/assets-new/img/new-theme/logo.svg"
-            title="Income Tax Filing Online"
-            alt="Income Tax Filing Online"
-            width="159"
-            height="37"
-          />
+        <h2 className="font-bold text-3xl logo">File Your <span className="Blue">Tax</span></h2>
         </a>
       </div>
 
@@ -73,16 +67,16 @@ const Nav = () => {
           {isProductsDropdownOpen && (
             <div className="dropdown drop-product bg-white shadow-lg rounded-lg absolute w-full lg:w-auto  text-base ">
               <ul>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">File Your Return</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Upload Form 16</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">CA Assisted Tax Filing</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Tax Planning Optimiser</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Refund Status</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">TDS Solution</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">NRI Taxes & ITR Filing</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Tax Advisory Services</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Capital Gain Tax Filing</li>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Income Tax Notices</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">File Your Return</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Upload Form 16</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">CA Assisted Tax Filing</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Tax Planning Optimiser</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Refund Status</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">TDS Solution</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">NRI Taxes & ITR Filing</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Tax Advisory Services</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Capital Gain Tax Filing</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Income Tax Notices</li>
               </ul>
             </div>
           )}
@@ -104,34 +98,34 @@ const Nav = () => {
                 <div className="lists flex text-base ">
              <ul>
                   
-                   <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Income Tax Calculator</li>
+                   <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Income Tax Calculator</li>
        
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">HRA Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">HRA Calculator</li>
                     
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Rent Receipt Generator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Rent Receipt Generator</li>
                  
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">ITR Eligibility Checker</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Calculator on Section 234F</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">80C Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Cryptocurrency Tax Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Simple Interest Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">80DD Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Compound Interest Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Sukanya Samriddhi Yojana Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">ITR Eligibility Checker</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Calculator on Section 234F</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">80C Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Cryptocurrency Tax Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Simple Interest Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">80DD Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Compound Interest Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Sukanya Samriddhi Yojana Calculator</li>
                     
                   </ul>
                   <ul>
                   <li>Form 12BB</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Gratuity Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">TDS Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Transport Allowance Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Leave Encashment Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">House Property Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">80D Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">80TTU Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">80U Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">OLd vs New Tax Slab Regime Calculator</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">IFSC code Search</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Gratuity Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">TDS Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Transport Allowance Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Leave Encashment Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">House Property Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">80D Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">80TTU Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">80U Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">OLd vs New Tax Slab Regime Calculator</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">IFSC code Search</li>
 
                   </ul>
                   </div>
@@ -158,9 +152,9 @@ const Nav = () => {
           {isKnowledgeDropdownOpen && (
             <div className="dropdown bg-white shadow-lg rounded-lg absolute mt-48 lg:mt-48 text-base w-full lg:w-auto ">
               <ul>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">FAQ</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Tax Glossary</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Video Tutorials</li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">FAQ</li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Tax Glossary</li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Video Tutorials</li>
               </ul>
             </div>
           )}
@@ -182,35 +176,35 @@ const Nav = () => {
                <div className="lists flex text-base gap-4">
              <ul>
                   
-                   <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700 font-extrabold">Income Tax Guides</li>
+                   <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green font-extrabold">Income Tax Guides</li>
        
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Aadhar</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Aadhar</li>
                     
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Capital Gains Income</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Capital Gains Income</li>
                  
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">E-filling of ITR</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">House Property </li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Income Tax Calander</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Income Tax Notices</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Income Tax Refund</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Income Tax Slabs</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Income Tax Verification</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Pan Card</li>
-                    <li  className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Salary Income</li>
-                    <li  className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Section 80 Deductions</li>
-                    <li  className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">TDS</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">E-filling of ITR</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">House Property </li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Income Tax Calander</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Income Tax Notices</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Income Tax Refund</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Income Tax Slabs</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Income Tax Verification</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Pan Card</li>
+                    <li  className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Salary Income</li>
+                    <li  className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Section 80 Deductions</li>
+                    <li  className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">TDS</li>
                     
                   </ul>
                   <ul>
-                  <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700 font-extrabold">Form 12BB</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">GST</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">GST System</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">GST Registration</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Input Tax Credit</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">GST Procedure</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">GST Returns</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">GST eWay Bills</li>
-                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">GST Rates</li>
+                  <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green font-extrabold">Form 12BB</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">GST</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">GST System</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">GST Registration</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">Input Tax Credit</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">GST Procedure</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">GST Returns</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">GST eWay Bills</li>
+                    <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer hover:hover-text-green">GST Rates</li>
                    
                   </ul>
                   </div>

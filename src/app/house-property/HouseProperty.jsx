@@ -93,7 +93,7 @@ const HouseProperty = () => {
                             ))}
                             </div>
                             <div className="flex justify-end gap-4 mt-4">
-                                <button onClick={addLetOutSection} className="p-1 px-3  text-2xl font-bold  rounded-lg bg-green-700 text-white">+ </button>
+                                <button onClick={addLetOutSection} className="p-1 px-3  text-2xl font-bold  rounded-lg bg-blue text-white">+ </button>
                                 <button onClick={removeLetOutSection} className="p-1 px-3 text-2xl font-bold rounded-lg bg-gray-300 text-black">- </button>
                             </div>
                         </>
@@ -103,8 +103,8 @@ const HouseProperty = () => {
                     <div className="loan-input flex flex-wrap justify-between mt-9">
                         <h2 className="text-xl font-semibold">Have you taken any loan to buy the property?</h2>
                         <div className="loan-btns flex gap-4 mt-3">
-                            <div className={`yes-btn rounded-full shadow px-8 py-1 ${selectedButton === 'no' ? 'bg-green-700' : ''}`} onClick={() => { setShowYesContent(false); setSelectedButton('no'); }}><p className={`${selectedButton === 'no' ? 'text-white' : ''}`}>No</p></div>
-                            <div className={`yes-btn rounded-full shadow px-8 py-1 ${selectedButton === 'yes' ? 'bg-green-700' : ''}`} onClick={() => { setShowYesContent(true); setSelectedButton('yes'); }}><p className={`${selectedButton === 'yes' ? 'text-white' : ''}`}>Yes</p></div>
+                            <div className={`yes-btn rounded-full shadow px-8 py-1 ${selectedButton === 'no' ? 'bg-blue' : ''}`} onClick={() => { setShowYesContent(false); setSelectedButton('no'); }}><p className={`${selectedButton === 'no' ? 'text-white' : ''}`}>No</p></div>
+                            <div className={`yes-btn rounded-full shadow px-8 py-1 ${selectedButton === 'yes' ? 'bg-blue' : ''}`} onClick={() => { setShowYesContent(true); setSelectedButton('yes'); }}><p className={`${selectedButton === 'yes' ? 'text-white' : ''}`}>Yes</p></div>
                         </div>
                     </div>
 
@@ -131,8 +131,8 @@ const HouseProperty = () => {
                             <div className="loan-input flex flex-wrap justify-between mt-9">
                                 <h2 className="text-xl font-semibold">Property tax paid?</h2>
                                 <div className="loan-btns flex gap-4 mt-3">
-                                    <div className={`yes-btn rounded-full shadow px-8 py-1 ${LetselectedButton === 'no' ? 'bg-green-700' : ''}`} onClick={() => { setShowLetYesContent(false); setLetSelectedButton('no'); }}><p className={`${LetselectedButton === 'no' ? 'text-white' : ''}`}>No</p></div>
-                                    <div className={`yes-btn rounded-full shadow px-8 py-1 ${LetselectedButton === 'yes' ? 'bg-green-700' : ''}`} onClick={() => { setShowLetYesContent(true); setLetSelectedButton('yes'); }}><p className={`${LetselectedButton === 'yes' ? 'text-white' : ''}`}>Yes</p></div>
+                                    <div className={`yes-btn rounded-full shadow px-8 py-1 ${LetselectedButton === 'no' ? 'bg-blue' : ''}`} onClick={() => { setShowLetYesContent(false); setLetSelectedButton('no'); }}><p className={`${LetselectedButton === 'no' ? 'text-white' : ''}`}>No</p></div>
+                                    <div className={`yes-btn rounded-full shadow px-8 py-1 ${LetselectedButton === 'yes' ? 'bg-blue' : ''}`} onClick={() => { setShowLetYesContent(true); setLetSelectedButton('yes'); }}><p className={`${LetselectedButton === 'yes' ? 'text-white' : ''}`}>Yes</p></div>
                                 </div>
                             </div>
 
@@ -156,17 +156,17 @@ const HouseProperty = () => {
                  </div>
 
                  <div className="financial-btns flex flex-wrap justify-between mb-10">
-                     <a href="\Basic-details2">
+                     <a href="\basic-details2">
                          <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
                              <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
-                             <p className="text-green-700">Back</p>
+                             <p className="text-blue">Back</p>
                          </div>
                      </a>
                      <div className="other-btns flex flex-wrap gap-4">
                          <div className="get-button px-10 py-3 rounded-md">
                              <p className="text-white font-semibold">GET CA ASSISTED</p>
                          </div>
-                         <a href="\Deduction">
+                         <a href="\deduction">
                              <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md">
                                  <p className="text-white font-semibold">CONTINUE</p>
                                  <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />

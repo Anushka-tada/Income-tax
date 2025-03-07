@@ -18,7 +18,7 @@ width="100%" height="400" frameBorder="0"  allowFullScreen=""></iframe>
             <input type="email" placeholder='Email' className='p-2 mail ' />
             <textarea name="" id="" placeholder='Comments' rows="3" className='p-2 comment' ></textarea>
 
-        <div className="subit absolute lg:left-96 top-60  md:left-52 left-32 ms-36 bg-green-600 p-4 rounded-full">         
+        <div className="subit absolute lg:left-96 top-60  md:left-52 left-32 ms-36 bg-blue p-4 rounded-full">         
            <img src="https://tax2win.in/assets-new/img/send.svg" alt="" className='' width="35" height="35"></img>
            </div>
           </div>

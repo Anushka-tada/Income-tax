@@ -1,3 +1,5 @@
+
+@import url('../homepage/EasiestWay.css');
 .basic-form input{
     border: 1px solid rgb(185, 185, 185);
    width: 320px;;
@@ -23,11 +25,11 @@
     
 }
 .continue-btn{
-    background-color: #197E37;
+    background-color: var(--primary-color);
 }
 
 .back-btn{
-    border: 1px solid #197E37;
+    border: 1px solid var(--primary-color);
 }
 @media (max-width:940px){
     .basic-form-outer{
@@ -66,4 +68,8 @@
         width: 97%;
     }
 
+}
+
+.text-blue{
+    color: var(--third-color);
 }

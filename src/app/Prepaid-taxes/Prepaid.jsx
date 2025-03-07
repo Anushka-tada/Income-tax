@@ -61,13 +61,13 @@ const Prepaid = () => {
                   </div>
                   <div className="btns flex gap-4 mt-3">
                     <div
-                      className={`yes-btn rounded-full cursor-pointer shadow px-8 py-1 ${!section.showInput ? 'bg-green-700 text-white' : ''}`}
+                      className={`yes-btn rounded-full cursor-pointer shadow px-8 py-1 ${!section.showInput ? 'bg-blue text-white' : ''}`}
                       onClick={() => toggleShowInput(section.id)}
                     >
                       <p>No</p>
                     </div>
                     <div
-                      className={`yes-btn rounded-full cursor-pointer shadow px-8 py-1 ${section.showInput ? 'bg-green-700 text-white' : ''}`}
+                      className={`yes-btn rounded-full cursor-pointer shadow px-8 py-1 ${section.showInput ? 'bg-blue text-white' : ''}`}
                       onClick={() => toggleShowInput(section.id)}
                     >
                       <p>Yes</p>
@@ -197,7 +197,7 @@ const Prepaid = () => {
                 {section.showInput && (
                   <div className="add-input flex justify-end ">
                     <button
-                      className="add-btn rounded-lg shadow px-4 py-2 bg-green-700 text-white"
+                      className="add-btn rounded-lg shadow px-4 py-2 bg-blue text-white"
                       onClick={() => addInput(section.id)}
                     >
                       <p className='font-bold text-xl '>+</p>
@@ -213,14 +213,14 @@ const Prepaid = () => {
         <a href="\bank-details">
           <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
             <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
-            <p className="text-green-700">Back</p>
+            <p className="text-blue">Back</p>
           </div>
         </a>
         <div className="other-btns flex flex-wrap gap-4">
           <div className="get-button px-10 py-3 rounded-md">
             <p className="text-white font-semibold">GET CA ASSISTED</p>
           </div>
-          <a href="\Prepaid-taxes">
+          <a href="\extra-details">
             <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md">
               <p className="text-white font-semibold">CONTINUE</p>
               <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />

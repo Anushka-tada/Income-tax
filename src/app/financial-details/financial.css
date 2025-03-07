@@ -1,4 +1,4 @@
-
+@import url('../homepage/EasiestWay.css');
 
 .financial-details{
     background-color: #d3dbe4;
@@ -29,15 +29,15 @@
     background-color: #09345a;
 }
 .continue-btn{
-    background-color: #197E37;
+    background-color: var(--primary-color);
 }
 
 .back-btn{
-    border: 1px solid #197E37;
+    border: 1px solid var(--primary-color);
 }
 
 .needSupport{
-    background-color: #197e37;
+    background-color: var(--primary-color);
 }
 
 @media (max-width:940px){
@@ -78,4 +78,8 @@
     .financial-details  .other-btns {
         width: 100%;
     }
+}
+
+.text-blue{
+    color: var(--third-color);
 }

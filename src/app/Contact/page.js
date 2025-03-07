@@ -1,6 +1,6 @@
 
 
-import LogFooter from '../LogIn/LogFooter';
+import LogFooter from '../login/LogFooter';
 import Contact_footer from './Contact_footer';
 import Contactform from './Contactform';
 import Nav from './Nav';

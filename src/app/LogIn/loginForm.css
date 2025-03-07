@@ -1,3 +1,5 @@
+@import url('../homepage/EasiestWay.css');
+
 .login-Form{
     background: #fafafa;
 }
@@ -9,13 +11,13 @@
     border: 1px solid rgb(211, 211, 211)
 }
 .forget-p{
-    color: #59ba4b;
+    color: var(--third-color);
 }
 .login-btn{
-    background-color: #59ba4b;
+    background-color: var(--primary-color);
 }
 .sign-green{
-    color: #59ba4b;
+    color: var(--third-color);
 }
 .refunds , .return-filling{
     color: #969696;

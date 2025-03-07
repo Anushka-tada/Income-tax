@@ -12,7 +12,7 @@ const Component7 = () => {
 
 <div className="section7-btn flex gap-2 inline-flex px-12 py-3  gap-3 rounded-full mt-8">
     <p className='text-white font-medium'>File Now</p>
-    <img src="https://tax2win.in/assets-new/img/new-theme/w-ghost-arrow.svg" alt="File Now" title="File Now"></img>
+    <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="File Now" title="File Now"></img>
 </div>
 
       </div>

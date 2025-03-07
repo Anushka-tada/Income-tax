@@ -1,9 +1,11 @@
+@import url('EasiestWay.css');
+
 .guides , .guide{
     /* border-bottom: 1px solid rgb(227, 227, 227); */
 }
 
 .section9-part1:hover{
-    color: #197E37;
+    color: var(--third-color);
 }
 .section9-btn{
     background-color: #09345a;;

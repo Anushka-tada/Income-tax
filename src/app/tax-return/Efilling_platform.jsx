@@ -1,7 +1,42 @@
-import React from 'react'
+"use client"
+
+import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import "./Efilling.css"
 
 const Efilling_platform = () => {
+   const[formData , setFormData] = useState({
+    salaryPension: false,
+    houseProperty: true,
+    businessProfession: false,
+    capitalGains: false,
+    otherSources: false,
+    foreignSource: false,
+   });
+
+   const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value === 'Yes',
+    });
+  };
+
+  const router = useRouter();
+
+  const handleContinue = () => {
+    const dataToStore = {
+      isSalary: formData.salaryPension,
+      isHouseProperty: formData.houseProperty,
+      isProfession: formData.businessProfession,
+      isCapitalGain: formData.capitalGains,
+      isOtherSource: formData.otherSources,
+      isForeignSource: formData.foreignSource,
+    };
+    console.log(dataToStore);
+    router.push('/financial-details');
+  };
+  
   return (
     <>
 
@@ -15,11 +50,13 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q1. Income from <span className='font-bold'>Salary/Pension</span>?</p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="salaryPension" className='h-5 w-5 custom-radio' />
+                <input type="radio" name="salaryPension" value="Yes" className='h-5 w-5 custom-radio' 
+              onChange={handleChange} />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="salaryPension" className='h-5 w-5  custom-radio' defaultChecked />
+                <input type="radio" name="salaryPension"  value="No" className='h-5 w-5  custom-radio' defaultChecked   
+              onChange={handleChange} />
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -32,11 +69,13 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q2. Income from <span className='font-bold'>House Property (Home Loan/ Rental Income, etc)?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="houseProperty" className='h-5 w-5 custom-radio' defaultChecked />
+                <input type="radio" name="houseProperty" value="Yes" className='h-5 w-5 custom-radio' defaultChecked   
+              onChange={handleChange}/>
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="houseProperty" className='h-5 w-5 custom-radio ' />
+                <input type="radio" name="houseProperty" value="No" className='h-5 w-5 custom-radio '  
+              onChange={handleChange} />
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -49,11 +88,13 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q3. Income from <span className='font-bold'>Business/Profession?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="businessProfession" className='h-5 w-5 custom-radio' />
+                <input type="radio" name="businessProfession" value="Yes" className='h-5 w-5 custom-radio'  
+              onChange={handleChange}/>
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="businessProfession" className='h-5 w-5 custom-radio' defaultChecked />
+                <input type="radio" name="businessProfession" value="No" className='h-5 w-5 custom-radio' defaultChecked  
+              onChange={handleChange} />
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -66,11 +107,13 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q4. Income from <span className='font-bold'>Capital Gains (Shares/ Mutual Funds/Property etc)?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="capitalGains" className='h-5 w-5 custom-radio' />
+                <input type="radio" name="capitalGains" value="Yes" className='h-5 w-5 custom-radio' 
+              onChange={handleChange} />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="capitalGains" className='h-5 w-5 custom-radio'defaultChecked />
+                <input type="radio" name="capitalGains" value="No" className='h-5 w-5 custom-radio'defaultChecked   
+              onChange={handleChange}/>
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -83,11 +126,13 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q5. Income from <span className='font-bold'>Other Sources?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="otherSources" className='h-5 w-5 custom-radio' />
+                <input type="radio" name="otherSources" value="Yes" className='h-5 w-5 custom-radio'  
+              onChange={handleChange} />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="otherSources" className='h-5 w-5 custom-radio' defaultChecked />
+                <input type="radio" name="otherSources" value="No" className='h-5 w-5 custom-radio' defaultChecked   
+              onChange={handleChange}/>
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -100,11 +145,13 @@ const Efilling_platform = () => {
             <p className='text-xl font-semibold mb-2 lg:mb-0 md:mb-0'>Q6. Income from <span className='font-bold'>Foreign Source?</span></p>
             <div className='flex gap-3 font-bold text-lg'>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="foreignSource" className='h-5 w-5 custom-radio' />
+                <input type="radio" name="foreignSource" value="Yes" className='h-5 w-5 custom-radio'  
+              onChange={handleChange} />
                 <p>Yes</p>
               </div>
               <div className='flex gap-1 items-center'>
-                <input type="radio" name="foreignSource" className='h-5 w-5 custom-radio' defaultChecked/>
+                <input type="radio" name="foreignSource" value="No" className='h-5 w-5 custom-radio' defaultChecked  
+              onChange={handleChange}/>
                 <p>No</p>
               </div>
               <div className='bg-gray-200 rounded-full p-2'>
@@ -114,12 +161,19 @@ const Efilling_platform = () => {
           </div>
         </div>
 
-<a href="\financial-details">
-<div className="continue-btn flex flex-wrap gap-3 py-3 px-20 rounded mt-7">
+       
+       <div onClick={handleContinue} className="continue-btn flex flex-wrap gap-3 py-3 px-20 rounded mt-7 cursor-pointer">
           <p className='text-white'>CONTINUE</p>
           <img src="https://tax2win.in/assets-new/img/diy-landing/nex-arrow.svg" alt="Continue" width="21" height="21"></img>
         </div>
-</a>
+
+{/* <a href="\financial-details">
+<div onClick={handleContinue} className="continue-btn flex flex-wrap gap-3 py-3 px-20 rounded mt-7 cursor-pointer">
+          <p className='text-white'>CONTINUE</p>
+          <img src="https://tax2win.in/assets-new/img/diy-landing/nex-arrow.svg" alt="Continue" width="21" height="21"></img>
+        </div>
+
+</a> */}
         
 
         <div className="efilling-rates flex justify-center flex-wrap gap-7 py-14">
@@ -269,7 +323,7 @@ const Efilling_platform = () => {
 
           <div className="itr-plan-2 rounded-2xl p-7">
             <div className="flex justify-end">
-              <div className="itrfilling-btn inline-flex px-5 py-1 bg-white rounded-full mb-6 ">
+              <div className="itrfilling-btn inline-flex px-5 py-1 bg-blue rounded-full mb-6 ">
                 <p className='font-bold'>#efiling</p>
               </div>
             </div>
@@ -289,7 +343,7 @@ const Efilling_platform = () => {
                 <div className="flex gap-2">
                   <p className='text-white strike' >₹99</p>
                   <div className="bg-white rounded-full  px-4">
-                    <p className='text-lg text-green-700'>₹49</p>
+                    <p className='text-lg text-blue'>₹49</p>
                   </div>
                 </div>
               </div>

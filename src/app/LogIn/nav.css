@@ -1,3 +1,5 @@
+@import url('../homepage/EasiestWay.css');
+
 .navbar-items {
     color: #353c40;
     font-weight: 500;
@@ -34,7 +36,7 @@ li {
 }
 
 .more-tax-btn {
-    color: #197E37;
+    color: var(--primary-color);
 }
 /* .lists{
     margin-top: 120px;
@@ -60,4 +62,11 @@ margin-top: 570px;
     .drop-tool{
         margin-top: 680px;
     }
+ }
+
+ .Blue{
+    color: var(--third-color);
+ }
+ .logo{
+    font-family: "Eras Demi ITC";
  }

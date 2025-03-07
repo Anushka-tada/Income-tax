@@ -10,8 +10,8 @@ const Check_status = () => {
         <span>Income Tax Refund Status</span></h1>
         <p className="text-white text-lg mb-10">Check the status of your most recent income tax refund updated in the Income Tax Department systems</p>
         <div className="section4-btn flex   bg-white inline-flex py-3  px-10 gap-3 rounded-full mt-4">
-          <btn-text className="font-medium text-green-700">Check Refund Status</btn-text>
-          <img src="https://tax2win.in/assets-new/img/new-theme/g_ghost_arrow.svg" width="26" height="26" alt="arrow"></img>
+          <btn-text className="font-medium text-blue">Check Refund Status</btn-text>
+          <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" width="26" height="26" alt="arrow"></img>
         </div>
       </div>
 

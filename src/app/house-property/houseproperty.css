@@ -1,3 +1,5 @@
+@import url('../homepage/EasiestWay.css');
+
 .house-property{
     background-color: #d3dbe4;
 }
@@ -49,3 +51,10 @@
 
 }
 
+.bg-blue{
+    background-color: var(--primary-color);
+}
+
+.text-blue{
+    color: var(--third-color);
+}

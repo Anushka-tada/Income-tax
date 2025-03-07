@@ -10,3 +10,9 @@ position: absolute;
 left: 5%;
 top: 15%;
 } */
+
+@import url('../homepage/EasiestWay.css');
+
+.text-blue{
+    color: var(--third-color);
+}

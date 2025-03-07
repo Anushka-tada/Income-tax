@@ -1,6 +1,37 @@
+"use client"
+
+import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import "./basic-form.css"
 
 const BasicForm = () => {
+    const [formData, setFormData] = useState({
+        pincode: '',
+        address1: '',
+        address2: ''
+      });
+
+    
+
+      const router = useRouter();
+
+      const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+          ...formData,
+          [name]:  value,
+        });
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+       
+          console.log(formData);
+        
+          router.push('/house-property');
+        
+      };
+      
     return (
         <>
             <div className="basic-form-section flex flex-col justify-center items-center text-center pt-20">
@@ -11,19 +42,19 @@ const BasicForm = () => {
 
                     <div className="basic-form ">
                         <div className="input flex flex-col items-start mb-4">
-                            <label htmlFor="">Pincode*</label>
-                            <input type="" className='p-3 rounded-lg' />
+                            <label htmlFor="pincode">Pincode*</label>
+                            <input type="text" name="pincode" className='p-3 rounded-lg' value={formData.pincode} onChange={handleChange} />
                         </div>
 
                         <div className="flex flex-wrap gap-5">
-                            <div className="input flex flex-col items-start">
-                                <label htmlFor="">Flat / Door / Building *</label>
-                                <input type="" className='p-3 rounded-lg' />
+                            <div className="input flex flex-col items-start" >
+                                <label htmlFor="address1">Flat / Door / Building *</label>
+                                <input type="text" name="address1" className='p-3 rounded-lg' value={formData.address1} onChange={handleChange} />
                             </div>
 
-                            <div className="input flex flex-col items-start">
-                                <label htmlFor="">Building / Village</label>
-                                <input type="" className='p-3 rounded-lg' />
+                            <div className="input flex flex-col items-start" >
+                                <label htmlFor="address2">Building / Village</label>
+                                <input type="text" name="address2" className='p-3 rounded-lg' value={formData.address2} onChange={handleChange} />
                             </div>
                         </div>
 
@@ -31,10 +62,10 @@ const BasicForm = () => {
 
                 </div>
                 <div className="financial-btns flex flex-wrap justify-between mb-10">
-                    <a href="\basic-details">
+                    <a href="/basic-details">
                         <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
                             <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
-                            <p className="text-green-700">Back</p>
+                            <p className="text-blue">Back</p>
                         </div>
                     </a>
 
@@ -42,12 +73,12 @@ const BasicForm = () => {
                         <div className="get-button px-10 py-3 rounded-md">
                             <p className="text-white font-semibold">GET CA ASSISTED</p>
                         </div>
-                        <a href="\house-property">
-                            <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md" >
-                                <p className="text-white font-semibold">CONTINUE</p>
-                                <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />
-                            </div>
-                        </a>
+                      
+                        <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md" onClick={handleSubmit}>
+                            <p className="text-white font-semibold">CONTINUE</p>
+                            <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />
+                        </div>
+                       
                     </div>
                 </div>
             </div>

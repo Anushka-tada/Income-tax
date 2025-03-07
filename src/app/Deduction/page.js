@@ -1,6 +1,6 @@
 import React from 'react'
-import Taxreturn_Nav from '../Tax-Retun/Taxreturn_Nav'
-import Mainsteps from '../Basic-details2/Mainsteps'
+import Taxreturn_Nav from '../tax-return/Taxreturn_Nav'
+import Mainsteps from '../basic-details2/Mainsteps'
 import Deduction from './Deduction'
 
 const page = () => {

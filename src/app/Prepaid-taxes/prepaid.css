@@ -1,3 +1,5 @@
+@import url('../homepage/EasiestWay.css');
+
 .prepaid-taxes{
     background-color: #d3dbe4;
 }
@@ -17,7 +19,7 @@
 } 
 
   .notes{
-    background-color: #e8f9e6;
+    background-color: var(--secondary-color);
 } 
 
 .input-yes{
@@ -49,11 +51,11 @@
     
 }
 .continue-btn{
-    background-color: #197E37;
+    background-color: var(--primary-color);
 }
 
 .back-btn{
-    border: 1px solid #197E37;
+    border: 1px solid var(--primary-color);
 }
 .get-button{
     width: 220px;
@@ -62,4 +64,12 @@
  .continue-btn{
      width: 220px;
      height: 50px;
+ }
+
+ .bg-blue{
+    background-color: var(--primary-color);
+ }
+
+ .text-blue{
+    color: var(--third-color);
  }

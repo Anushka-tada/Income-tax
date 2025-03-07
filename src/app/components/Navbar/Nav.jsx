@@ -44,13 +44,7 @@ const Nav = () => {
     <div className="Navbar-outer flex items-center justify-between lg:px-24 px-4 py-4 ">
       <div className="nav-logo">
         <a href="\homepage">
-          <img
-            src="https://tax2win.in/assets-new/img/new-theme/logo.svg"
-            title="Income Tax Filing Online"
-            alt="Income Tax Filing Online"
-            width="159"
-            height="37"
-          />
+          <h2 className="font-bold text-3xl logo">File Your <span className="Blue">Tax</span></h2>
         </a>
       </div>
 
@@ -74,7 +68,7 @@ const Nav = () => {
           {isProductsDropdownOpen && (
             <div className="dropdown drop-product bg-white shadow-lg rounded-lg absolute w-full lg:w-auto  text-base ">
               <ul>
-                <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">File Your Return</li>
+                <li className="py-2 hover:bg-gray-100 cursor-pointer hover-text-blue">File Your Return</li>
                 <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Upload Form 16</li>
                 <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">CA Assisted Tax Filing</li>
                 <li className="py-2 hover:bg-gray-100 cursor-pointer hover:text-green-700">Tax Planning Optimiser</li>
@@ -221,11 +215,11 @@ const Nav = () => {
         </div>
 
         <div>Pricing</div>
-        <Link href="\Contact"> Contact </Link>
-        <Link href="\LogIn"
+        <Link href="\contact"> Contact </Link>
+        <Link href="\login"
                 > Log In
                    </Link>
-        <Link href="\Signup">Sign Up</Link>
+        <Link href="\signup">Sign Up</Link>
       </div>
     </div>
   );

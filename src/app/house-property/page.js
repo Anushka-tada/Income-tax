@@ -1,7 +1,7 @@
 import React from 'react'
-import Taxreturn_Nav from '../Tax-Retun/Taxreturn_Nav'
+import Taxreturn_Nav from '../tax-return/Taxreturn_Nav'
 import HouseProperty from './HouseProperty'
-import Mainsteps from '../Basic-details2/Mainsteps'
+import Mainsteps from '../basic-details2/Mainsteps'
 import Support from '../financial-details/Support'
 
 const page = () => {

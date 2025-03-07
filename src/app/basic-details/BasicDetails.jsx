@@ -10,7 +10,7 @@ const BasicDetails = () => {
     middleName: '',
     lastName: '',
     fatherName: '',
-    mobileNumber: '',
+    phoneNumber: '',
     email: '',
     gender: 'male',
     whatsappUpdates: false
@@ -24,10 +24,10 @@ const BasicDetails = () => {
     if (!formData.firstName) newErrors.firstName = 'First Name is required';
     if (!formData.lastName) newErrors.lastName = 'Last Name is required';
     if (!formData.fatherName) newErrors.fatherName = 'Father\'s Name is required';
-    if (!formData.mobileNumber) {
-      newErrors.mobileNumber = 'Mobile Number is required';
-    } else if (!/^\d{10}$/.test(formData.mobileNumber)) {
-      newErrors.mobileNumber = 'Mobile Number must be 10 digits';
+    if (!formData.phoneNumber) {
+      newErrors.phoneNumber = 'Mobile Number is required';
+    } else if (!/^\d{10}$/.test(formData.phoneNumber)) {
+      newErrors.phoneNumber = 'Mobile Number must be 10 digits';
     }
     if (!formData.email) {
       newErrors.email = 'Email ID is required';
@@ -50,9 +50,9 @@ const BasicDetails = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validate()) {
-      console.log('Form Submitted Successfully', formData);
-      // Handle form submission
-      router.push('\Basic-details2');
+      console.log(formData);
+    
+      router.push('/basic-details2');
     }
   };
 
@@ -86,9 +86,9 @@ const BasicDetails = () => {
           </div>
 
           <div className="input input2 flex flex-col items-start">
-            <label htmlFor="mobileNumber" className='mb-2'>Mobile Number *</label>
-            <input type="text" name="mobileNumber" className='p-3 rounded-lg' value={formData.mobileNumber} onChange={handleChange} />
-            {errors.mobileNumber && <p className="text-red-500">{errors.mobileNumber}</p>}
+            <label htmlFor="phoneNumber" className='mb-2'>Mobile Number *</label>
+            <input type="text" name="phoneNumber" className='p-3 rounded-lg' value={formData.phoneNumber} onChange={handleChange} />
+            {errors.phoneNumber && <p className="text-red-500">{errors.phoneNumber}</p>}
           </div>
 
           <div className="input input2 flex flex-col items-start">
@@ -120,32 +120,30 @@ const BasicDetails = () => {
           <input type='checkbox' name="whatsappUpdates" className='custom-checkbox' checked={formData.whatsappUpdates} onChange={handleChange} />
           <p className='text'>I would like to receive updates about my ITR filing on WhatsApp</p>
         </div>
-
-        
       </form>
-      <div className="financial-btns flex flex-wrap justify-between mb-10">
-          <a href="\financial-details">
-            <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
-              <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
-              <p className="text-green-700">Back</p>
-            </div>
-          </a>
 
-          <div className="other-btns flex flex-wrap gap-4">
-            <div className="get-button px-10 py-3 rounded-md">
-              <p className="text-white font-semibold">GET CA ASSISTED</p>
-            </div>
-            <a href="\Basic-details2">
-              <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md" onClick={handleSubmit}>
-                <p className="text-white font-semibold">CONTINUE</p>
-                <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />
-              </div>
-            </a>
+      <div className="financial-btns flex flex-wrap justify-between mb-10">
+        <a href="/financial-details">
+          <div className="back-btn flex items-center gap-3 py-3 px-10 mb-4 bg-white rounded-md">
+            <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/back-arrow.svg" alt="" height={15} width={15} />
+            <p className="text-blue">Back</p>
           </div>
+        </a>
+
+        <div className="other-btns flex flex-wrap gap-4">
+          <div className="get-button px-10 py-3 rounded-md">
+            <p className="text-white font-semibold">GET CA ASSISTED</p>
+          </div>
+         
+            <div className="continue-btn flex gap-3 items-center px-10 py-3 rounded-md" onClick={handleSubmit}>
+              <p className="text-white font-semibold">CONTINUE</p>
+              <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />
+            </div>
+          
         </div>
+      </div>
     </div>
   );
 }
 
 export default BasicDetails;
-

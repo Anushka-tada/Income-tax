@@ -127,7 +127,7 @@ const BookeCA = () => {
             <span className='text-blue-500'> Terms & Conditions </span> and <span className='text-blue-500'> Privacy Policy</span></p>
           <div className="book-btn rounded-lg mt-6 flex gap-3 justify-center w-full py-3">
             <p className='text-white text-xl'>Book eCA Now</p>
-            <img src="https://tax2win.in/assets-new/img/new-theme/diy-flow/nex-arrow.svg" alt="" />
+            <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="" />
           </div>
           <div className="google-btn rounded-lg flex gap-3 justify-center w-full py-3 mt-4">
             <img src="https://tax2win.in/assets-new/img/google-icon.svg" alt="" height={25} width={25} />
@@ -294,9 +294,9 @@ const BookeCA = () => {
                             <p className="text-lg mt-4" key={index}>{detail}</p>
                         ))}
                         <div className="service-btn mt-4">
-                            <button className="p-2 px-5 rounded-full mt-3 bg-green-700 text-white flex gap-3">
+                            <button className="p-2 px-5 rounded-full mt-3 bg-blue text-white flex gap-3">
                                 {serviceDetails.find(service => service.name === selectedService)?.btn}
-                                <img src="https://tax2win.in/assets-new/img/new-theme/w-ghost-arrow.svg" alt="" />
+                                <img src="https://tax2win.in/assets-new/img/new-theme/b_ghost_arrow.svg" alt="" />
                             </button>
                         </div>
                     </>
