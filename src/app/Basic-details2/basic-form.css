@@ -5,6 +5,9 @@
 .basic-form-section{
     background-color: #d3dbe4;
 }
+.basic-form-section h1{
+    color: #253243;
+}
 .basic-form-outer{
     width: 50%;
 }

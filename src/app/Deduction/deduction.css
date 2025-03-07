@@ -1,9 +1,16 @@
 .deduction-section{
     background-color: #d3dbe4;
 }
+.deduction-section h1{
+    color: #253243;
+}
 
 .deduction-form {
     width: 80%;
+}
+
+.bg-blue{
+    background-color: #09345a;
 }
 
 .form-options{

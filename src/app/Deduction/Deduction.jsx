@@ -35,25 +35,25 @@ const Deduction = () => {
                     <div className="flex justify-center">
                         <div className="form-options flex flex-wrap justify-center gap-2 bg-white  px-2 rounded-full shadow-md ">
                             <div
-                                className={`form-option px-6 py-1 rounded-full cursor-pointer mb-2 mt-2 ${selectedSection === 'Section80C' ? 'bg-blue-900 text-white' : ''}`}
+                                className={`form-option px-6 py-1 rounded-full cursor-pointer mb-2 mt-2 ${selectedSection === 'Section80C' ? 'bg-blue text-white' : ''}`}
                                 onClick={() => setSelectedSection('Section80C')}
                             >
                                 <p className='text-lg'>Section 80C</p>
                             </div>
                             <div
-                                className={`form-option px-6 py-1 rounded-full cursor-pointer mb-2 mt-2 ${selectedSection === 'Section80D' ? 'bg-blue-900 text-white' : ''}`}
+                                className={`form-option px-6 py-1 rounded-full cursor-pointer mb-2 mt-2 ${selectedSection === 'Section80D' ? 'bg-blue text-white' : ''}`}
                                 onClick={() => setSelectedSection('Section80D')}
                             >
                                 <p className='text-lg'>Section 80D</p>
                             </div>
                             <div
-                                className={`form-option px-6 py-1 rounded-full cursor-pointer mb-2 mt-2 ${selectedSection === 'Donation' ? 'bg-blue-900 text-white' : ''}`}
+                                className={`form-option px-6 py-1 rounded-full cursor-pointer mb-2 mt-2 ${selectedSection === 'Donation' ? 'bg-blue text-white' : ''}`}
                                 onClick={() => setSelectedSection('Donation')}
                             >
                                 <p className='text-lg'>Donation</p>
                             </div>
                             <div
-                                className={`form-option px-6 py-1 rounded-full cursor-pointer mb-2 mt-2 ${selectedSection === 'Other' ? 'bg-blue-900 text-white' : ''}`}
+                                className={`form-option px-6 py-1 rounded-full cursor-pointer mb-2 mt-2 ${selectedSection === 'Other' ? 'bg-blue text-white' : ''}`}
                                 onClick={() => setSelectedSection('Other')}
                             >
                                 <p className='text-lg'>Other</p>

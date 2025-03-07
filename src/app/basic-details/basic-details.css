@@ -1,6 +1,9 @@
 .basic-details{
     background-color: #d3dbe4;
 }
+.basic-details h1{
+    color: #253243;
+}
 .financial-form input , .financial-form .year{
     border:  1px solid rgb(163, 163, 163);
    }

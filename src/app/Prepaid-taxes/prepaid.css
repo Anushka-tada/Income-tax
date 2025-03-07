@@ -1,6 +1,9 @@
 .prepaid-taxes{
     background-color: #d3dbe4;
 }
+.prepaid-taxes h1{
+    color: #253243;
+}
 
 .prepaid-tax-form , .financial-btns {
     width: 80%;

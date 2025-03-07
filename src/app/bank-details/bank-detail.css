@@ -1,6 +1,9 @@
 .bank-details{
     background-color: #d3dbe4;
 }
+.bank-details h1{
+    color: #253243;
+}
 
 .bank-details-form , .aadhaar-details-form , .bank-details .financial-btns {
     width: 80%;

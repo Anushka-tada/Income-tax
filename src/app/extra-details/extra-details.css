@@ -1,6 +1,11 @@
 .extra-details {
     background-color: #d3dbe4;
 }
+.extra-details h1{
+    color: #253243;
+}
+
+
 .extra-input input , .extra-input select{
     border: 1px solid rgb(185, 185, 185);
     width: 340px;
