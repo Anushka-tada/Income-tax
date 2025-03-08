@@ -1,6 +1,7 @@
 
 
 
+
 import LogFooter from '../login/LogFooter';
 import Contact_footer from './Contact_footer';
 import Contactform from './Contactform';
@@ -16,7 +17,7 @@ const page = () => {
 <Contactform/>
   <Solutions/>
   <Contact_footer/>
-  <LogFooter/>
+ <LogFooter/>
     </div>
   );
 };
